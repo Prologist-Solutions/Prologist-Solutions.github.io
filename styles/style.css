@@ -1,7 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    transition: 0.5s;
-    overflow: hidden;
-    
-}
+select.form-select option[value="rolling"] {
+    background-color: green;
+    color: white;
+  }
+  select.form-select option[value="break"] {
+    background-color: gray;
+    color: white;
+  }
+  select.form-select option[value="Shift Change"] {
+    background-color: yellow;
+    color: black;
+  }
+  select.form-select option[value="traffic"] {
+    background-color: orange;
+    color: white;
+  }
